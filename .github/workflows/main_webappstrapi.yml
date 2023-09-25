@@ -58,7 +58,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'collapse-survivor-cms-webapp-dev'
+          app-name: 'webappstrapi'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4A8A911E9376403C844D2C6A42B2A345 }}
           package: .
